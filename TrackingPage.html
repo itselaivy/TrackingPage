@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="trackingPage.css" />
+    <title>Application Status</title>
+  </head>
+  <body>
+
+    <script src="JS/script.js"></script>
+    <!-- sidebar -->
+    <nav class="sidebar">
+      <div class="logo">
+        <img
+          alt="Baliwag Institute of Technology logo"
+          class="photo"
+          height="100"
+          src="asset/logo/logo.png"
+          width="130"
+        />
+      </div>
+      <ul class="menu">
+        <li><a href="#">Dashboard</a></li>
+        <li><a href="TrackingPage.html">Application Status</a></li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Documents</a></li>
+        <li><a href="#">Settings</a></li>
+        <li><a href="#">Help</a></li>
+      </ul>
+      <a href="#" class="logout">Logout</a>
+    </nav>
+    <!-- header -->
+    <div class="main-content">
+      <header>
+        <img
+              alt="User profile picture"
+              class="user-pfp"
+              height="40"
+              src="asset/logo/pfp.png"
+              width="40"
+            />
+            <span class="user-name"> Hi, Jhayson Sampollo </span>
+      </header>
+      <!-- content -->
+      <main class="content">
+        <article>
+            <div class="timeline">
+                <h3>Application Status</h3>
+                <div class="progress-container">
+                    <div class="progress-line"></div> <!-- progress line -->
+                    <div class="step completed">
+                        <div class="circle">✔</div>
+                        <p>SUBMITTED APPLICATION<br><span>APPROVED</span></p>
+                    </div>
+                    <div class="step active">
+                        <div class="circle">2</div>
+                        <p>SAMPLE TEXT<br><span>Under Review</span></p>
+                    </div>
+                    <div class="step">
+                        <div class="circle">3</div>
+                        <p>SAMPLE TEXT<br><span>Sample Text</span></p>
+                    </div>
+                    <div class="step">
+                        <div class="circle">4</div>
+                        <p>SAMPLE TEXT<br><span>Sample Text</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="progress">
+              <h3>Progress</h3>
+            </div>
+        </article>
+        <div class="notif">
+          <img src="asset/icon/bell.png" alt="bell-icon" height="22px" width="19px">
+          <span class="notif-name">
+            Notification
+          </span>
+        </div>
+      </main>
+      <!-- footer -->
+      <footer>Copyrights</footer>
+    </div>
+  </body>
+</html>
